@@ -26,7 +26,7 @@ steps:
    hugo --log -v
   displayName: 'Generate Blog'
 
-- task: CopyFiles @ 2
+- task: CopyFiles@2
   displayName: 'Copy Blog'
   inputs:
     SourceFolder: '$ (blog.path) / public'
