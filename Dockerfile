@@ -12,6 +12,7 @@ ARG CGO=1
 ENV CGO_ENABLED=${CGO}
 ENV GOOS=linux
 ENV GO111MODULE=on
+ENV GOFLAGS=-mod=vendor
 
 WORKDIR /go/src/github.com/gohugoio/hugo
 
