@@ -24,7 +24,7 @@ steps:
     buildFuture: true
     uglyURLs: true
 
-    - task: HugoTask@1
+- task: HugoTask@1
   displayName: 'Generate Hugo site'
   inputs:
     destination: '$(Build.ArtifactStagingDirectory)'
