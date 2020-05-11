@@ -14,4 +14,3 @@ steps:
     buildDrafts: true
     buildExpired: true
     buildFuture: true
-    uglyURLs: true
