@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Details on Rico the Pug</title>
+    <link>https://ricopug.org/tags/</link>
+    <description>Recent content in Tags on Details on Rico the Pug</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ricopug.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>details</title>
+      <link>https://ricopug.org/tags/details/index.json</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/details/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://ricopug.org/tags/food/index.json</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/food/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pug</title>
+      <link>https://ricopug.org/tags/pug/index.json</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/pug/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pugs</title>
+      <link>https://ricopug.org/tags/pugs/index.json</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/pugs/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yumyum</title>
+      <link>https://ricopug.org/tags/yumyum/index.json</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/yumyum/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facts</title>
+      <link>https://ricopug.org/tags/facts/index.json</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/facts/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rico</title>
+      <link>https://ricopug.org/tags/rico/index.json</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricopug.org/tags/rico/index.json</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
