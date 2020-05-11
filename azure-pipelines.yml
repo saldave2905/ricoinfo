@@ -7,16 +7,12 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'vs2017-win2016'  # need a Windows host because the Hugo task uses PowerShell
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- checkout: self
+  displayName: 'Checkout repository including submodules'
+  submodules: true  # true so Hugo theme submodule is checked out
 
 - task: HugoTask@1
   inputs:
@@ -27,3 +23,14 @@ steps:
     buildExpired: true
     buildFuture: true
     uglyURLs: true
+
+    - task: HugoTask@1
+  displayName: 'Generate Hugo site'
+  inputs:
+    destination: '$(Build.ArtifactStagingDirectory)'
+
+    - task: PublishPipelineArtifact@0
+  displayName: 'Publish Hugo site as artifact'
+  inputs:
+    artifactName: 'hugo-site'
+    targetPath: '$(Build.ArtifactStagingDirectory)'
