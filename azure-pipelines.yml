@@ -7,17 +7,18 @@ trigger:
 - master
 
 pool:
-  vmImage: "ubuntu-18.04"
+  vmImage: "ubuntu-16.04"
 
 variables:
-  blog.path: '/quickstart/'
+  hugo.version: '0.55.6'
+  blog.path: './quickstart'
 
 steps:
 - script: |
-   wget -c https://github.com/gohugoio/hugo/releases/download/v0.70.0/hugo_0.70.0_Linux-64bit.deb  
+   wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   
   displayName: "Download HUGO"
 
-- script: 'sudo dpkg -i hugo_0.70.0_Linux-64bit.deb'
+- script: 'sudo dpkg -i hugo _ $ (hugo.version) _Linux-64bit.deb'
   displayName: "Install HUGO"
 
 - script: |
@@ -25,16 +26,16 @@ steps:
    hugo --log -v
   displayName: 'Generate Blog'
 
-- task: CopyFiles@2
+- task: CopyFiles @ 2
   displayName: 'Copy Blog'
   inputs:
-    SourceFolder: '$(blog.path)/public'
+    SourceFolder: '$ (blog.path) / public'
     Contents: "**"
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    TargetFolder: '$ (Build.ArtifactStagingDirectory)'
 
-- task: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts @ 1
   displayName: Publish Blog
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$ (Build.ArtifactStagingDirectory)'
     ArtifactName: Drop
     publishLocation: 'Container'
