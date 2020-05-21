@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://ricopug.org/blog/pug_facts/",
+        "ref": "https://ricoinfo.z13.web.core.windows.net/blog/pug_facts/",
         "title": "Pug Facts",
         "section": "blog",
         "tags": ["pugs","details"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://ricopug.org/blog/rico-foods/",
+        "ref": "https://ricoinfo.z13.web.core.windows.net/blog/rico-foods/",
         "title": "Rico's Favorite Foods",
         "section": "blog",
         "tags": ["food","yumyum"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://ricopug.org/blog/rico_facts/",
+        "ref": "https://ricoinfo.z13.web.core.windows.net/blog/rico_facts/",
         "title": "Facts about Rico",
         "section": "blog",
         "tags": ["rico","pug","facts"],
