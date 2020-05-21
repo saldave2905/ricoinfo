@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://mango-dune-0650f280f.azurestaticapps.net/"
 title = "Details on Rico the Pug"
 theme = "pulp"
 canonifyurls = true
