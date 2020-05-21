@@ -8,4 +8,4 @@ tags: [
 ]
 ---
 
-Rico is happy and loves you! See you all soon!
+Rico is happy and loves you! See you all soon! He loves you!
