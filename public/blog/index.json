@@ -1,5 +1,14 @@
 [
     {
+        "ref": "/blog/rico_update/",
+        "title": "An update on Rico",
+        "section": "blog",
+        "tags": ["status update","rico"],
+        "date" : "2020.05.21",
+        "body": "Rico is happy and loves you!\n"
+    }
+,
+    {
         "ref": "/blog/pug_facts/",
         "title": "Pug Facts",
         "section": "blog",

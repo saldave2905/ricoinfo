@@ -1,8 +1,8 @@
 [
     {
-        "ref": "/rico_update/",
+        "ref": "/blog/rico_update/",
         "title": "An update on Rico",
-        "section": "",
+        "section": "blog",
         "tags": ["status update","rico"],
         "date" : "2020.05.21",
         "body": "Rico is happy and loves you!\n"
