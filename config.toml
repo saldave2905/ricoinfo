@@ -1,4 +1,5 @@
-baseurl = "https://mango-dune-0650f280f.azurestaticapps.net/"
+#baseurl = "https://mango-dune-0650f280f.azurestaticapps.net/"
+baseurl = ""
 title = "Details on Rico the Pug"
 theme = "pulp"
 canonifyurls = true
@@ -12,7 +13,7 @@ hasCJKLanguage = true
 
 [params]
     author = "Rico the Pug Information Center"
-    avatar = "img/avatar.jpg"
+    avatar = "avatar.jpg"
     # avatarDescription = "Rico"
     favicon = "favicon.ico"
     description = """

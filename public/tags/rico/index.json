@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://mango-dune-0650f280f.azurestaticapps.net/blog/rico_facts/",
+        "ref": "/blog/rico_facts/",
         "title": "Facts about Rico",
         "section": "blog",
         "tags": ["rico","pug","facts"],
