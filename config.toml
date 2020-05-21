@@ -12,9 +12,9 @@ hasCJKLanguage = true
 
 [params]
     author = "Rico the Pug Information Center"
-    avatar = "avatar.jpg"
+    avatar = "static/img/avatar.jpg"
     # avatarDescription = "Rico"
-    favicon = "favicon.ico"
+    favicon = "static/img/favicon.ico"
     description = """
         Details about the internet's most interesting pug.
     """
