@@ -8,4 +8,4 @@ tags: [
 ]
 ---
 
-Rico is happy and loves you! See you all soon! He loves you!
+Rico has been sick lately.  We took him to the vet recently and they diagnosed him with pancreatitis.  We are providing him with medicine and a new diet.  We hope for a speedy recovery. 
