@@ -47,15 +47,6 @@
     </item>
     
     <item>
-      <title>pug</title>
-      <link>/tags/pug/index.json</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pug/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pugs</title>
       <link>/tags/pugs/index.json</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
@@ -79,6 +70,15 @@
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/facts/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pug</title>
+      <link>/tags/pug/index.json</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pug/index.json</guid>
       <description></description>
     </item>
     
