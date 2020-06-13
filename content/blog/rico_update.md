@@ -1,6 +1,6 @@
 ---
 title: "An update on Rico"
-date: 2020-05-21
+date: 2020-06-13
 draft: false
 tags: [
     "status update",
@@ -8,4 +8,4 @@ tags: [
 ]
 ---
 
-Rico has been sick lately.  We took him to the vet recently and they diagnosed him with pancreatitis.  We are providing him with medicine and a new diet.  We hope for a speedy recovery. 
+Rico is better.
