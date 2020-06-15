@@ -8,4 +8,4 @@ tags: [
 ]
 ---
 
-Rico is better.
+Rico is better. He's great.  He feels really well, we love him.
